@@ -5,3 +5,5 @@ Program akan mengirimkan 5 pesan dalam sekali jalan karena terdapat 5 kali peman
 b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 
 Hal ini menandakan bahwa program terkoneksi antara subscriber dengan publisher melalui message broker yang sama. URL ini berguna untuk membuat sebuah antrian publisher yang baru.
+
+![RabbitMQ](image.png)
