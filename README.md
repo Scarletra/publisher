@@ -7,3 +7,5 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 Hal ini menandakan bahwa program terkoneksi antara subscriber dengan publisher melalui message broker yang sama. URL ini berguna untuk membuat sebuah antrian publisher yang baru.
 
 ![RabbitMQ](image.png)
+![RabbitMQ multiple publisher](image-1.png)
+Spike pada chart di atas terjadi karena menjalankan publisher berkali-kali
